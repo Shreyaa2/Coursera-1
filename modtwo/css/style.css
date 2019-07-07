@@ -7,7 +7,7 @@ p {
 .titles {
     position: relative;
     bottom: 20px;
-    left: 150px;
+    right: 150px;
 }
 
 .row {
