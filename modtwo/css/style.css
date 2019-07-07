@@ -4,6 +4,11 @@ p {
     box-sizing: border-box;
 }
 
+.titles {
+    position: relative;
+    offset-position: top right;
+}
+
 .row {
     width: 100%;
 }
