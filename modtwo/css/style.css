@@ -6,7 +6,8 @@ p {
 
 .titles {
     position: relative;
-    offset-position: top right;
+    top: 20px;
+    right: 30px;
 }
 
 .row {
