@@ -7,7 +7,7 @@ p {
 .titles {
     position: relative;
     bottom: 20px;
-    right: 180px;
+    right: 170px;
 }
 
 .row {
@@ -32,7 +32,7 @@ p {
     .col-lg-12 {
         float: left;
         border: 1px solid green;
-        margin: 5px;
+        margin: 10px;
     }
     .col-lg-1 {
         width: 8.33%;
