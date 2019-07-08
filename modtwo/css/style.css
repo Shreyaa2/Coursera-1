@@ -1,8 +1,10 @@
 p {
     margin: 10px;
-    width: 200px;
+    padding: 10px;
+    width: 240px;
     height: 200px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .titles {
@@ -33,7 +35,7 @@ p {
     .col-lg-12 {
         float: left;
         border: 1px solid green;
-        margin: 10px;
+        margin: 40px;
     }
     .col-lg-1 {
         width: 8.33%;
