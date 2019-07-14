@@ -6,6 +6,7 @@
         width: 40%;
         margin: 0 0 5px 0;
         border: 2px solid black;
+        position: absolute;
     }
     
     p {
@@ -25,6 +26,7 @@
     
     .row {
         width: 100%;
+        height: auto;
     }
     /********** Desktop **********/
     
@@ -100,6 +102,8 @@
         .col-md-12 {
             float: left;
             border: 1px solid darkgray;
+            border-radius: 5px;
+            margin: 40px;
         }
         .col-md-1 {
             position: relative;
