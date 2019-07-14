@@ -141,8 +141,7 @@
         }
     }
     /********** Mobile **********/
-    
-    @media (min-width: 768px) and (max-width: 991px) {
+    /*   @media (min-width: 768px) and (max-width: 991px) {
         .col-s-1,
         .col-s-2,
         .col-s-3,
@@ -169,8 +168,8 @@
         .col-s-3 {
             position: relative;
             width: 25%;
-        }
-    }
+        } 
+    } */
     
     @media (min-width: 1200px) {
         #p1 {
