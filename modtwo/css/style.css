@@ -105,7 +105,7 @@
        .col-md-11,
        .col-md-12 {
            float: left;
-           border: 1px solid darkgray;
+           border: 3px solid darkgray;
            border-radius: 5px;
            margin: 40px;
        }
@@ -114,6 +114,7 @@
            width: 8.33%;
        }
        .col-md-2 {
+           position: relative;
            width: 16.66%;
        }
        .col-md-3 {
