@@ -1,20 +1,21 @@
 body {
     font-size: 16px;
     color: white;
-    background-color: black;
+    background-color: #034f84;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #h-nav {
-    background-color: darkslateblue;
+    background-color: #f7cac9;
     border-radius: 0;
     border: 0;
-    height: 130px;
+    height: 110px;
 }
 
 #logo-img {
-    background: url(/css/images/dinner-table.svg) no-repeat;
-    width: 120px;
-    height: 120;
+    box-sizing: border-box;
+    background: url('../css/images/dinner-table-b.png') no-repeat;
+    width: 90px;
+    height: 90px;
     margin: 10px;
 }
