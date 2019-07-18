@@ -4,3 +4,17 @@ body {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#h-nav {
+    background-color: darkslateblue;
+    border-radius: 0;
+    border: 0;
+    height: 130px;
+}
+
+#logo-img {
+    background: url(/css/images/dinner-table.svg) no-repeat;
+    width: 120px;
+    height: 120;
+    margin: 10px;
+}
