@@ -5,17 +5,238 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#h-nav {
+#header-nav {
+    padding: 7px;
     background-color: #f7cac9;
     border-radius: 0;
     border: 0;
-    height: 110px;
 }
 
 #logo-img {
-    box-sizing: border-box;
-    background: url('../css/images/dinner-table-b.png') no-repeat;
-    width: 90px;
-    height: 90px;
-    margin: 10px;
+    margin: 5px;
+    width: 85px;
+    height: 85px;
+    padding: 16px 13px 13px 15px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 70px;
+    border-color: rgb(244, 247, 250);
+    background-color: white;
+    background-blend-mode: color-dodge;
+    box-shadow: .5px 1px 1px 0 rgb(177, 218, 245), 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+#logo-img img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-brand h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #cdeafe;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #337ab7;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    color: whitesmoke;
+}
+
+#nav-list a span {
+    font-size: 1.2em;
+}
+
+#phone {
+    margin-top: 15px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #034f84;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+.container .jumbotron {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 0;
+    box-shadow: 0 0 50px black;
+    border: 2px solid #92a8d1;
+}
+
+
+/*FOOTER*/
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: white;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours,
+#address {
+    line-height: 2;
+}
+
+#hours>span,
+#address>span {
+    font: 1.2em;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+    box-shadow: 0 1px 5px 1px whitesmoke;
+}
+
+#menu-tile {
+    background: url("../images/bar.svg") no-repeat;
+    background-position: center;
+    background-size: 140px;
+}
+
+#specials-tile {
+    background: url("../images/serving-dish.svg") no-repeat;
+    background-position: center;
+    background-size: 140px;
+}
+
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+/* Respinsivity */
+
+
+/* Large device */
+
+@media (min-width:1200px) {
+    .container .jumbotron {
+        background: url("../images/bar-ceiling-chairs-1200.jpg") no-repeat;
+        height: 657px;
+    }
+}
+
+
+/* Medium device */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img {
+        width: 70px;
+        height: 70px;
+        padding: 10px 13px 13px 9px;
+    }
+    .navbar-brand h1 {
+        padding-top: 8px;
+        padding-left: 5px;
+        font-size: 1.25em;
+    }
+    .container .jumbotron {
+        background: url("../images/bar-chairs-counter-992.jpg") no-repeat;
+        height: 558px;
+    }
+}
+
+
+/* Small device */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container .jumbotron {
+        background: url("../images/bar-chairs-counter-768.jpg") no-repeat;
+        height: 432px;
+    }
+}
+
+
+/* Xtra small device */
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        padding-top: 5px;
+        padding-left: 5px;
+        font-size: 5vw;
+    }
+    #collapsable a span {
+        margin-right: 5px;
+    }
+    .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+    }
+    #menu-tile,
+    #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    #menu-title,
+    #specials-title {
+        width: 280px;
+        margin: 0 auto 10px;
+    }
 }
