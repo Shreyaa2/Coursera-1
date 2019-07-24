@@ -1,7 +1,10 @@
 body {
     font-size: 16px;
     color: white;
-    background-color: #034f84;
+    background: url("../images/bar-ceiling-chairs-1200.jpg") no-repeat;
+    background-size: 1350px;
+    background-attachment: fixed;
+    /* background-color: #034f84; */
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -84,19 +87,19 @@ body {
     clear: both;
 }
 
-.container .jumbotron {
+
+/* .container .jumbotron {
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 0;
-    box-shadow: 0 0 50px black;
-    border: 2px solid #92a8d1;
-}
+    box-shadow: 0 0 20px black;
+    border: 1px solid #92a8d1; 
+} */
 
 
 /*FOOTER*/
 
 .panel-footer {
-    margin-top: 30px;
     padding-top: 35px;
     padding-bottom: 30px;
     background-color: #222;
@@ -118,12 +121,39 @@ body {
     font: 1.2em;
 }
 
+
+/*Main page main content*/
+
+#caption-one {
+    width: 1200px;
+    height: 600px;
+}
+
+#caption-one hr {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#caption-one h1 {
+    font-family: 'Arbutus Slab', serif;
+    font-size: 7em;
+    text-align: center;
+    margin: 70px auto 70px;
+}
+
+#tiles {
+    background-color: white;
+    opacity: 0.9;
+    height: 400px;
+}
+
 #menu-tile,
 #specials-tile,
 #map-tile {
     width: 100%;
     height: 200px;
-    margin-bottom: 10px;
+    margin: 10px auto 0;
     position: relative;
     overflow: hidden;
 }
@@ -131,7 +161,7 @@ body {
 #menu-tile:hover,
 #specials-tile:hover,
 #map-tile:hover {
-    box-shadow: 0 1px 5px 1px whitesmoke;
+    box-shadow: 0 1px 5px 1px steelblue;
 }
 
 #menu-tile {
@@ -156,9 +186,94 @@ body {
     text-align: center;
     text-transform: uppercase;
     background-color: transparent;
-    color: #fff;
+    color: black;
     font-size: 1.2em;
 }
+
+
+/*Menu categories content*/
+
+#tile-layout-1 {
+    background-color: white;
+    opacity: .8;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.category-tile {
+    position: relative;
+    border: 2px solid #f7786b;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    opacity: .6;
+}
+
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+/*Single category content*/
+
+#menu-cat-tile {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+#tile-layout-2 {
+    background-color: white;
+    opacity: .8;
+    padding: 50px 5px 5px 110px;
+}
+
+.item-tile {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    color: #333;
+}
+
+.item-tile hr {
+    max-width: 85%;
+}
+
+.item-description {
+    padding-right: 30px;
+}
+
+h3.item-title {
+    margin: 0 0 10px;
+}
+
+.item-details {
+    font-size: .9em;
+}
+
+
+/* Aligns the price next to the heading*/
+
+.item-tile .item-price span {
+    font-size: .7em;
+    font-weight: bold;
+}
+
+
+/* Skipped picture */
 
 
 /* Respinsivity */
@@ -201,6 +316,20 @@ body {
         background: url("../images/bar-chairs-counter-768.jpg") no-repeat;
         height: 432px;
     }
+    #caption-one {
+        width: 768px;
+        height: 350px;
+    }
+    #caption-one h1 {
+        font-size: 3.5em;
+        text-align: center;
+        margin: 70px auto 70px;
+    }
+    #tiles {
+        background-color: white;
+        opacity: 0.9;
+        height: 400px;
+    }
 }
 
 
@@ -238,5 +367,13 @@ body {
     #specials-title {
         width: 280px;
         margin: 0 auto 10px;
+    }
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+        width: 100%;
     }
 }
