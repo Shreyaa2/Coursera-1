@@ -1,8 +1,8 @@
 body {
     font-size: 16px;
     color: white;
-    background: url("../images/bar-ceiling-chairs-1200.jpg") no-repeat;
-    background-size: 1350px;
+    background: url("../images/alcohol-bottles-architecture-bar-1200.jpg") no-repeat;
+    background-size: 1280px;
     background-attachment: fixed;
     /* background-color: #034f84; */
     font-family: 'Courier New', Courier, monospace;
@@ -145,7 +145,7 @@ body {
 #tiles {
     background-color: white;
     opacity: 0.9;
-    height: 400px;
+    height: 280px;
 }
 
 #menu-tile,
@@ -292,6 +292,18 @@ h3.item-title {
 /* Medium device */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background: url("../images/alcohol-bottles-architecture-bar-1200.jpg") no-repeat;
+        height: 558px;
+    }
+    #caption-one {
+        width: 992px;
+        height: 300px;
+    }
+    #caption-one h1 {
+        font-family: 'Arbutus Slab', serif;
+        font-size: 5em;
+    }
     #logo-img {
         width: 70px;
         height: 70px;
@@ -302,26 +314,31 @@ h3.item-title {
         padding-left: 5px;
         font-size: 1.25em;
     }
-    .container .jumbotron {
-        background: url("../images/bar-chairs-counter-992.jpg") no-repeat;
+    /*   .container .jumbotron {
+        background: url("../images/bar-2209813_640.jpg") no-repeat;
         height: 558px;
-    }
+    } */
 }
 
 
 /* Small device */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .container .jumbotron {
-        background: url("../images/bar-chairs-counter-768.jpg") no-repeat;
+    body {
+        background: url("../images/alcohol-bottles-architecture-bar-992.jpg") no-repeat;
+        background-size: 991px;
         height: 432px;
     }
+    /*  .container .jumbotron {
+        background: url("../images/bar-chairs-counter-768.jpg") no-repeat;
+        height: 432px;
+    } */
     #caption-one {
         width: 768px;
         height: 350px;
     }
     #caption-one h1 {
-        font-size: 3.5em;
+        font-size: 4em;
         text-align: center;
         margin: 70px auto 70px;
     }
@@ -336,6 +353,18 @@ h3.item-title {
 /* Xtra small device */
 
 @media (max-width: 767px) {
+    body {
+        background: url("../images/alcohol-bottles-architecture-bar-768.jpg") no-repeat;
+    }
+    #caption-one {
+        width: 760px;
+        height: 350px;
+    }
+    #caption-one h1 {
+        font-size: 2em;
+        text-align: center;
+        margin: 70px auto 70px;
+    }
     .navbar-brand {
         height: 80px;
     }
@@ -359,6 +388,9 @@ h3.item-title {
 }
 
 @media (max-width: 375px) {
+    body {
+        background-size: 380px;
+    }
     .navbar-brand h1 {
         padding-top: 5px;
         font-size: 6vw;
