@@ -1,6 +1,5 @@
 body {
     font-size: 16px;
-    color: white;
 }
 
 #hv {
@@ -11,7 +10,8 @@ body {
 .navbar-brand h1 {
     padding-left: 10px;
     font-family: 'Arbutus Slab', serif;
-    text-shadow: 1px 1px 1px #cdeafe;
+    text-shadow: 0 1px 1px #cdeafe;
+    color: cadetblue;
 }
 
 .navbar-brand a:link,
@@ -23,8 +23,16 @@ body {
     color: white;
 }
 
-#nav-list a span {
+#nav-list a {
     font-size: 1.2em;
+    background-color: #3e84b6;
+    opacity: .7;
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    color: aliceblue;
 }
 
 .navbar-header button.navbar-toggle,
@@ -34,4 +42,16 @@ body {
 
 .navbar-header button.navbar-toggle {
     clear: both;
+}
+
+#caption h1 {
+    text-align: center;
+}
+
+#main-content {
+    height: 800px;
+    background-color: dodgerblue;
+    opacity: .7;
+    padding: 25px;
+    color: black;
 }
