@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+    color: white;
+}
+
+#hv {
+    padding: 5px;
+    background-color: black;
+}
+
+.navbar-brand h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #cdeafe;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #034f84;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
