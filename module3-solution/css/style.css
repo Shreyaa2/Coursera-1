@@ -3,8 +3,11 @@ body {
 }
 
 #hv {
-    height: 100px;
     background-color: black;
+}
+
+.navbar-header {
+    height: 120px;
 }
 
 .navbar-brand h1 {
@@ -23,18 +26,6 @@ body {
     color: white;
 }
 
-#nav-list a {
-    font-size: 1.2em;
-    background-color: #3e84b6;
-    opacity: .7;
-    color: black;
-    text-align: center;
-}
-
-#nav-list a:hover {
-    color: aliceblue;
-}
-
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
     border: 1px solid #034f84;
@@ -44,8 +35,29 @@ body {
     clear: both;
 }
 
+#nav-list {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+#nav-list a {
+    font-size: 1.2em;
+    background-color: #3e84b6;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+#nav-list a:hover {
+    color: aliceblue;
+}
+
 #caption h1 {
     text-align: center;
+}
+
+#main {
+    padding: 10px;
 }
 
 #main-content {
