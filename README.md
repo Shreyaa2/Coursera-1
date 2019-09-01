@@ -1,5 +1,5 @@
 ## Welcome 
 
-Head to (https://github.com/Shreyaa2/Coursera-1/restaurant/index.html) 
+Head to (https://shreyaa2.github.io/Coursera-1/restaurant/index.html) 
 
 
